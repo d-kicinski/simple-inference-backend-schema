@@ -1,0 +1,11 @@
+[project]
+name = "simple-backend"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+ui = [
+    "nicegui",
+    "flet",
+]
